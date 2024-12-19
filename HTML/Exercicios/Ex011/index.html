@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tena abrir esse site e diminua o tamano do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reprozuir áudios em HTML5</p>
+   
+    <audio preload="metadata"  controls> 
+        <source src="midia/Seguidores Trap.mp3" type="audio/mpeg">
+        <source src="midia/seguidorestrap.wav" type="audio/wav">
+        <source src="midia/seguidorestrap.ogg" type="audio/ogg">
+    </audio>
+    <p>Se o seu navegador não Reproduzir o áudi. <a href="midia/Seguidores Trap.mp3" download="seguidorestrap. mp3" type="media/mpeg" target="_blank">clique aqui</a> e faça download do arquivo MP3.</p>
+
+    
+</body>
+</html>
